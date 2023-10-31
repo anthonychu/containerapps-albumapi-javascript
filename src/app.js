@@ -20,5 +20,5 @@ app.use(express.json({ type: ["applicaton/json"] }));
 app.use(express.urlencoded({ extended: false }));
 app.use("/", router);
 
-console.log("Container Apps Node Sample");
+console.log("Albums API started");
 module.exports = app;
